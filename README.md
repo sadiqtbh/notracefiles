@@ -1,101 +1,116 @@
-# NoTraceFiles 🛡️
+<div align="center">
 
-[![Release](https://img.shields.io/badge/release-v2.0.1-0891b2.svg)](https://github.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-00253f.svg)](#downloads)
-[![Zero Telemetry](https://img.shields.io/badge/telemetry-0%20packets-emerald.svg)](#privacy-guarantee)
-[![Quality](https://img.shields.io/badge/pixel%20drift-0.00%25%20lossless-cyan.svg)](#architecture)
+<img src="assets/branding/app-icon-3d.png" alt="NoTrace Files Icon" width="130" height="130" />
 
-> **"Share the photo, keep the details to yourself."**  
-> Fast, personal, and completely offline privacy utility. Removes hidden satellite GPS tags, camera hardware serials, and timestamps directly on your device before you share.
+# NoTrace Files
 
----
+### Your Files, Clean and Private.
+**Free, 100% offline metadata viewer and cleaner for Windows & Android.**
 
-## 🌟 Highlights
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://notracefiles.app/)
+[![Latest Release](https://img.shields.io/badge/Release-v2.0.2-059669?style=for-the-badge&logo=github)](https://github.com/sadiqtbh/notracefiles/releases)
+[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Certified-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9N2R2KZL33NG)
+[![APKPure](https://img.shields.io/badge/APKPure-Android%20App-00ba7c?style=for-the-badge&logo=android&logoColor=white)](https://apkpure.com/p/info.sadiqtbh.notracefiles)
+[![Official Website](https://img.shields.io/badge/Website-notracefiles.app-00C853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://notracefiles.app/)
 
-- **100% Offline Local Processing**: Operates strictly within local device RAM. No telemetry servers, no analytical trackers, and zero cloud uploads.
-- **Lossless Quality (0.00% Pixel Drift)**: Surgical byte removal keeps your original pixels 100% untouched. No quality degradation, no JPEG artifacting, and zero visual blur.
-- **Cross-Platform**:
-  - **Windows Desktop**: Batch drag-and-drop processing for up to 80 photos per second with Windows Explorer right-click shell integration.
-  - **Android Mobile**: Lightweight (<1 MB) Share Sheet hook for one-tap sanitization before posting to WhatsApp, Signal, Instagram, or X.
-- **Free & Open Utility**: Created by **Yeasin Arafat Sadiq**. No subscription walls, no ads, and no data brokers.
+<br/>
 
----
+### 🌐 Direct Downloads Available at: [**notracefiles.app**](https://notracefiles.app/) &nbsp;•&nbsp; [**notracefilesphotoprivacy.apk.com**](https://notracefilesphotoprivacy.apk.com/)
 
-## 📦 Downloads & Releases (v2.0.1)
+[**Windows Setup Installer (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTrace_Files_Setup.exe) &nbsp;•&nbsp; [**Microsoft Store (.msix)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTraceFiles-2.0.2.msix) &nbsp;•&nbsp; [**Portable Standalone (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTrace_Files.exe) &nbsp;•&nbsp; [**Android APK (Direct)**](https://notracefilesphotoprivacy.apk.com/) &nbsp;•&nbsp; [**APKPure**](https://apkpure.com/p/info.sadiqtbh.notracefiles)
 
-| Platform | Format | Size | Description |
-| :--- | :--- | :--- | :--- |
-| **Windows** | [Setup.exe](https://github.com/) | 51.7 MB | Full installer with Explorer shell integration |
-| **Windows** | [Portable.exe](https://github.com/) | 40.8 MB | Standalone portable executable (runs from USB) |
-| **Android** | [Release.apk](https://github.com/) | 921 KB | Sideloadable APK for Android 8.0+ |
-| **Android** | [Release.aab](https://github.com/) | 921 KB | Android App Bundle for Google Play |
-
-### Integrity Verification (SHA-256 Checksums)
-
-```text
-e53563d2701a23a34b54a52c2552608ef4050bc68db1ef9dcc8a349992509acb  NoTrace_Files_Setup.exe
-328ad8d6ba62f2faddd1bb38f3c2f23cca83a59ecdfdd3d263e8cc89bca2ded6  NoTrace_Files.exe
-2af5c763c5ae9794f289230a31d7ed19a64ebd54f59f4d1b5391b0db4066c99c  NoTrace-Files-2.0.1.apk
-f41a27b13fd6cb97b6e232160a915f450c577102563b315ddb7606760479a5c4  NoTrace-Files-2.0.1.aab
-```
+</div>
 
 ---
 
-## 🔍 The Threat: What an Unstripped File Reveals
+## 🌟 Overview
 
-Every digital photo taken by smartphones and modern cameras embeds extensive hidden metadata headers:
+Every photo and document you create carries hidden metadata: **exact GPS coordinates, device serial numbers, camera settings, editing timestamps, author names, and software fingerprints**. Share that file online, and you inadvertently share that private data with anyone who downloads it.
 
-1. **GPS Coordinates (EXIF 0x0002)**: Satellite latitude, longitude, and altitude pinpointing your residence, workplace, or private locations.
-2. **Camera Hardware Fingerprints (EXIF 0xA431)**: Camera body serial numbers and lens IDs that allow data scrapers to link anonymous posts across disparate platforms.
-3. **Behavioral Timeline (EXIF 0x9003)**: Millisecond-accurate capture timestamps and timezone offsets mapping your daily schedule.
-4. **Ghost Thumbnails (IFD1 / XMP)**: Hidden preview caches that frequently retain the uncropped original even after editing.
-
-NoTraceFiles parses and purges these headers at the binary stream level before saving.
+**NoTrace Files** inspects your files with the industry-standard deep ExifTool engine, reveals every hidden tag with an intuitive privacy risk score, and strips sensitive data in one click—**100% offline, directly on your device.**
 
 ---
 
-## 🚀 Building from Source
+## 📸 Microsoft Store Visual Showcase ([Official Store Listing](https://apps.microsoft.com/detail/9N2R2KZL33NG))
 
-### Windows App (Python + CustomTkinter + PyInstaller)
-```bash
-# Clone the repository
-git clone https://github.com/your-username/notracefiles.git
-cd notracefiles
+<div align="center">
 
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate
+### 1. Drag & Drop Inspection
+*Drag and drop any photo or document to inspect its contents offline.*
+<img src="assets/screenshots/01-your-files-clean-and-private.png" alt="Your Files Clean and Private" width="850" />
 
-# Install requirements
-pip install -r requirements.txt
+<br/><br/>
 
-# Run GUI
-python gui/app.py
+### 2. See Every Hidden Tag & GPS Risk Score
+*Reveals camera EXIF, exact GPS coordinates, creation timestamps, and privacy risk ratings.*
+<img src="assets/screenshots/02-see-every-hidden-tag.png" alt="See Every Hidden Tag" width="850" />
 
-# Build binaries
-pyinstaller NoTrace_Files.spec
-pyinstaller NoTrace_Files_Setup.spec
-```
+<br/><br/>
 
-### Android App (Android Studio / Gradle)
-```bash
-cd android
-./gradlew assembleRelease
-./gradlew bundleRelease
-```
+### 3. Clear Risk Analysis
+*Visual indicators alert you to high-risk tags like embedded location and camera identifiers.*
+<img src="assets/screenshots/03-know-your-risk.png" alt="Know Your Risk" width="850" />
 
-### Landing Page Website (React + TypeScript + Vite + Tailwind CSS)
-```bash
-cd website
-npm install
-npm run build
-```
+<br/><br/>
+
+### 4. Deep ExifTool Cleaning Engine
+*Thoroughly scrubs metadata across images (JPEG, PNG, WebP, HEIC, RAW), videos (MP4, MOV), and office documents (PDF, DOCX, XLSX).*
+<img src="assets/screenshots/04-deep-exiftool-cleaning.png" alt="Deep ExifTool Engine" width="850" />
+
+<br/><br/>
+
+### 5. Flexible Cleaning: In-Place or Copy
+*Choose in-place cleaning for zero leftover files, create an optional .bak backup, or save cleaned copies.*
+<img src="assets/screenshots/05-clean-in-place-or-copy.png" alt="Clean in Place or Copy" width="850" />
+
+<br/><br/>
+
+### 6. Batch Clean Entire Folders
+*Process hundreds of photos simultaneously before publishing albums or sending attachments.*
+<img src="assets/screenshots/06-batch-clean-entire-folders.png" alt="Batch Clean Entire Folders" width="850" />
+
+</div>
 
 ---
 
-## 📄 License
+## ✨ Key Superpowers
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+- 🔍 **Deep ExifTool Engine**: Detects every hidden EXIF, IPTC, XMP, GPS, and camera tag across all major media formats.
+- 📍 **GPS Exposure Alert**: Immediately detects embedded location coordinates and flags them before you upload photos to social media or public forums.
+- 📁 **Folder Batch Processing**: Drag an entire folder of photos or documents to scrub all metadata in seconds.
+- 🔄 **Safe Cleaning Modes**: Keep your original files by saving cleaned copies, or scrub in place with automatic timestamp wiping.
+- 🔒 **100% Offline & Private**: Zero telemetry, zero accounts, zero network requests. Your files never leave your computer or phone.
+- 🆓 **Free Forever**: No subscriptions, no ads, no paywalls.
 
-Developed with ❤️ by **[Yeasin Arafat Sadiq](https://www.sadiqtbh.info)**.
+---
+
+## 📦 Downloads & Packages
+
+| Platform | Package | Architecture | Description | Link |
+| :--- | :--- | :---: | :--- | :--- |
+| **Windows** | `NoTrace_Files_Setup.exe` | x64 | **Standard Windows Installer** with setup wizard | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTrace_Files_Setup.exe) |
+| **Windows** | `NoTraceFiles-2.0.2.msix` | x64 | **Microsoft Store / MSIX Package** (v2.0.2.0) | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTraceFiles-2.0.2.msix) |
+| **Windows** | `NoTrace_Files.exe` | x64 | **Portable Standalone App** (runs instantly, no install) | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTrace_Files.exe) |
+| **Windows** | Microsoft Store | x64 | Official certified listing on the Microsoft Store | [Get from Microsoft](https://apps.microsoft.com/detail/9N2R2KZL33NG) |
+| **Android** | Direct APK | Mobile | Fast direct APK download | [notracefilesphotoprivacy.apk.com](https://notracefilesphotoprivacy.apk.com/) |
+| **Android** | APKPure Listing | Mobile | Download via APKPure | [APKPure](https://apkpure.com/p/info.sadiqtbh.notracefiles) |
+| **Media Kit** | `NoTraceFiles-2.0.2-Screenshots.zip` | All | Full-resolution screenshot bundle (`1920×1080`) | [Download Screenshots](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.2/NoTraceFiles-2.0.2-Screenshots.zip) |
+
+---
+
+## ⚡ What's New in Version 2.0.2
+
+- **Microsoft Partner Center Compliance**: Package version incremented to `2.0.2.0` for full store validation.
+- **Enhanced WebView2 Rendering Engine**: Optimized interface rendering with smooth transitions and lower memory footprint.
+- **Unified 3D Shield Branding**: Embedded high-resolution icon across Windows desktop, taskbar, and Store tiles.
+- **Installer Improvements**: Resolved file locking edge cases during clean in-place upgrades.
+
+---
+
+## 👨‍💻 Developer & Attribution
+
+Developed by **Yeasin Arafat Sadiq**  
+🌐 **Website**: [https://notracefiles.app/](https://notracefiles.app/)  
+🏬 **Microsoft Store**: [NoTrace Files on Microsoft Store](https://apps.microsoft.com/detail/9N2R2KZL33NG)  
+📱 **APKPure**: [NoTrace Files on APKPure](https://apkpure.com/p/info.sadiqtbh.notracefiles)  
+📲 **Android Portal**: [https://notracefilesphotoprivacy.apk.com/](https://notracefilesphotoprivacy.apk.com/)
