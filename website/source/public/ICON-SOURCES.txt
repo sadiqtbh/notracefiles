@@ -1,0 +1,7 @@
+Platform SVG assets: Android and Windows from https://svgl.app/
+Android: https://svgl.app/library/android-icon.svg
+Windows: https://svgl.app/library/windows.svg
+Platform marks identify supported operating systems and do not imply endorsement.
+Device frames are website illustrations, not screenshots of the actual app.
+OneDrive: https://svgl.app/library/microsoft-onedrive.svg
+Location, camera, clock, metadata: original line SVG icons created for this page. These generic icons are not SVGL brand logos.
