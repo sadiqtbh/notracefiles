@@ -32,39 +32,90 @@ Every photo and document you create carries hidden metadata: **exact GPS coordin
 
 ## 📸 Application Visual Showcase
 
+### 📱 Android Mobile Visual Showcase ([Direct APK Portal](https://notracefilesphotoprivacy.apk.com/))
+
 <div align="center">
 
-### 1. Drag & Drop Inspection
+<img src="assets/screenshots/android/00-android-hero-banner.png" alt="NoTrace Files Android Hero Banner" width="850" />
+
+<br/><br/>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/01-your-photos-your-privacy.png" width="280" alt="Your Photos, Your Privacy" /><br/>
+      <b>1. Your Photos, Your Privacy</b><br/>
+      <sub>100% offline metadata stripper with zero accounts required.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/02-pick-from-gallery.png" width="280" alt="Pick From Gallery" /><br/>
+      <b>2. Direct Gallery Picker</b><br/>
+      <sub>Select a single photo or entire albums straight from storage.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/03-inspect-metadata-reveal.png" width="280" alt="Inspect Metadata" /><br/>
+      <b>3. Deep Metadata Inspection</b><br/>
+      <sub>Reveal embedded satellite GPS, camera serials, and timestamps.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/04-batch-clean-and-zip.png" width="280" alt="Batch Clean and ZIP" /><br/>
+      <b>4. Batch Clean to ZIP</b><br/>
+      <sub>Sanitize multi-photo queues and export in a single click.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/05-output-quality-controls.png" width="280" alt="Quality Controls" /><br/>
+      <b>5. Granular Output Controls</b><br/>
+      <sub>Select lossless PNG or adjust custom JPEG size & quality.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/android/06-save-and-share.png" width="280" alt="Save and Share" /><br/>
+      <b>6. One-Tap Save & Share</b><br/>
+      <sub>Forward sanitized photos directly to WhatsApp, Signal, or X.</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+### 🖥️ Windows Desktop Visual Showcase
+
+<div align="center">
+
+#### 1. Drag & Drop Inspection
 *Drag and drop any photo or document to inspect its contents offline.*
 <img src="assets/screenshots/01-your-files-clean-and-private.png" alt="Your Files Clean and Private" width="850" />
 
 <br/><br/>
 
-### 2. See Every Hidden Tag & GPS Risk Score
+#### 2. See Every Hidden Tag & GPS Risk Score
 *Reveals camera EXIF, exact GPS coordinates, creation timestamps, and privacy risk ratings.*
 <img src="assets/screenshots/02-see-every-hidden-tag.png" alt="See Every Hidden Tag" width="850" />
 
 <br/><br/>
 
-### 3. Clear Risk Analysis
+#### 3. Clear Risk Analysis
 *Visual indicators alert you to high-risk tags like embedded location and camera identifiers.*
 <img src="assets/screenshots/03-know-your-risk.png" alt="Know Your Risk" width="850" />
 
 <br/><br/>
 
-### 4. Deep ExifTool Cleaning Engine
+#### 4. Deep ExifTool Cleaning Engine
 *Thoroughly scrubs metadata across images (JPEG, PNG, WebP, HEIC, RAW), videos (MP4, MOV), and office documents (PDF, DOCX, XLSX).*
 <img src="assets/screenshots/04-deep-exiftool-cleaning.png" alt="Deep ExifTool Engine" width="850" />
 
 <br/><br/>
 
-### 5. Flexible Cleaning: In-Place or Copy
+#### 5. Flexible Cleaning: In-Place or Copy
 *Choose in-place cleaning for zero leftover files, create an optional .bak backup, or save cleaned copies.*
 <img src="assets/screenshots/05-clean-in-place-or-copy.png" alt="Clean in Place or Copy" width="850" />
 
 <br/><br/>
 
-### 6. Batch Clean Entire Folders
+#### 6. Batch Clean Entire Folders
 *Process hundreds of photos simultaneously before publishing albums or sending attachments.*
 <img src="assets/screenshots/06-batch-clean-entire-folders.png" alt="Batch Clean Entire Folders" width="850" />
 
