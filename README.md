@@ -9,7 +9,6 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://notracefiles.app/)
 [![Latest Release](https://img.shields.io/badge/Release-v2.0.3-059669?style=for-the-badge&logo=github)](https://github.com/sadiqtbh/notracefiles/releases)
-[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Certified-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9N2R2KZL33NG)
 [![APKPure](https://img.shields.io/badge/APKPure-Android%20App-00ba7c?style=for-the-badge&logo=android&logoColor=white)](https://apkpure.com/p/info.sadiqtbh.notracefiles)
 [![Official Website](https://img.shields.io/badge/Website-notracefiles.app-00C853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://notracefiles.app/)
 
@@ -17,7 +16,7 @@
 
 ### 🌐 Direct Downloads Available at: [**notracefiles.app**](https://notracefiles.app/) &nbsp;•&nbsp; [**notracefilesphotoprivacy.apk.com**](https://notracefilesphotoprivacy.apk.com/)
 
-[**Windows Setup Installer (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files_Setup.exe) &nbsp;•&nbsp; [**Microsoft Store (.msix)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTraceFiles-2.0.3.msix) &nbsp;•&nbsp; [**Portable Standalone (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files.exe) &nbsp;•&nbsp; [**Android APK (Direct)**](https://notracefilesphotoprivacy.apk.com/) &nbsp;•&nbsp; [**APKPure**](https://apkpure.com/p/info.sadiqtbh.notracefiles)
+[**Windows Setup Installer (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files_Setup.exe) &nbsp;•&nbsp; [**Portable Standalone (.exe)**](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files.exe) &nbsp;•&nbsp; [**Android APK (Direct)**](https://notracefilesphotoprivacy.apk.com/) &nbsp;•&nbsp; [**APKPure**](https://apkpure.com/p/info.sadiqtbh.notracefiles)
 
 </div>
 
@@ -31,7 +30,7 @@ Every photo and document you create carries hidden metadata: **exact GPS coordin
 
 ---
 
-## 📸 Application Visual Showcase ([Official Store Listing](https://apps.microsoft.com/detail/9N2R2KZL33NG))
+## 📸 Application Visual Showcase
 
 <div align="center">
 
@@ -89,9 +88,7 @@ Every photo and document you create carries hidden metadata: **exact GPS coordin
 | Platform | Package | Architecture | Description | Link |
 | :--- | :--- | :---: | :--- | :--- |
 | **Windows** | `NoTrace_Files_Setup.exe` | x64 | **Standard Windows Installer** with setup wizard | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files_Setup.exe) |
-| **Windows** | `NoTraceFiles-2.0.3.msix` | x64 | **Microsoft Store / MSIX Package** (v2.0.3.0) | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTraceFiles-2.0.3.msix) |
 | **Windows** | `NoTrace_Files.exe` | x64 | **Portable Standalone App** (runs instantly, no install) | [Download](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTrace_Files.exe) |
-| **Windows** | Microsoft Store | x64 | Official certified listing on the Microsoft Store | [Get from Microsoft](https://apps.microsoft.com/detail/9N2R2KZL33NG) |
 | **Android** | Direct APK | Mobile | Fast direct APK download | [notracefilesphotoprivacy.apk.com](https://notracefilesphotoprivacy.apk.com/) |
 | **Android** | APKPure Listing | Mobile | Download via APKPure | [APKPure](https://apkpure.com/p/info.sadiqtbh.notracefiles) |
 | **Media Kit** | `NoTraceFiles-2.0.3-Screenshots.zip` | All | Full-resolution screenshot bundle (`1920×1080`) | [Download Screenshots](https://github.com/sadiqtbh/notracefiles/releases/download/v2.0.3/NoTraceFiles-2.0.3-Screenshots.zip) |
@@ -100,10 +97,10 @@ Every photo and document you create carries hidden metadata: **exact GPS coordin
 
 ## ⚡ What's New in Version 2.0.3
 
-- **Microsoft Partner Center Compliance**: Package version incremented to `2.0.3.0` for store release.
 - **Enhanced Startup & Memory Optimization**: Faster app launch and reduced runtime footprint during deep inspection scans.
 - **Enhanced WebView2 Rendering Engine**: Optimized interface rendering with smooth transitions and crisp high-DPI scaling.
-- **Unified 3D Shield Branding**: Embedded high-resolution icon across Windows desktop, taskbar, and Store tiles.
+- **Unified 3D Shield Branding**: Embedded high-resolution icon across Windows desktop and taskbar.
+- **Robust Multi-File Batching**: Zero crash on locked files; seamlessly choose between *In-Place Scrubbing* or *Clean Copy Export*.
 - **Installer Improvements**: Resolved file locking edge cases during clean in-place upgrades.
 
 ---
@@ -112,6 +109,5 @@ Every photo and document you create carries hidden metadata: **exact GPS coordin
 
 Developed by **Yeasin Arafat Sadiq**  
 🌐 **Website**: [https://notracefiles.app/](https://notracefiles.app/)  
-🏬 **Microsoft Store**: [NoTrace Files on Microsoft Store](https://apps.microsoft.com/detail/9N2R2KZL33NG)  
 📱 **APKPure**: [NoTrace Files on APKPure](https://apkpure.com/p/info.sadiqtbh.notracefiles)  
 📲 **Android Portal**: [https://notracefilesphotoprivacy.apk.com/](https://notracefilesphotoprivacy.apk.com/)
